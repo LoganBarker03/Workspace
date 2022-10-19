@@ -7,9 +7,9 @@ public class Main {
   public static void fillMap() {
     System.out.println("What is your favorate food? ");
     map.put(0, input.nextLine());
-    System.out.println("What is your second favorate food? ");
+    System.out.println("What is your second favorate dessert? ");
     map.put(1, input.nextLine());
-    System.out.println("What is your third favorate food? ");
+    System.out.println("What is your third favorate drink? ");
     map.put(2, input.nextLine());
     System.out.print("Press enter to continue...");
     input.nextLine();
